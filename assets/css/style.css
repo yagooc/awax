@@ -200,8 +200,7 @@ header {
     color: #FFF;
 }
 
-
-
+/* ---------------------------------------------------- */
 
 /* CSS DE ÁREAS ESPECÍFICAS */
 
@@ -535,4 +534,19 @@ header {
 
 /* Section sponsorship */
 
+.default.light-bg-sponsor {
+    background-color: #FFF;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
 
+.section-sponsor-area {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.section-sponsor-area img {
+    padding: 0px 40px 0px 40px;
+}
+
+/* Section sponsorship */
