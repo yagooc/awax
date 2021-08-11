@@ -550,3 +550,72 @@ header {
 }
 
 /* Section sponsorship */
+
+.section-price {
+    overflow: hidden;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.section-price .tables {
+    width: 1000vw;
+    height: 100%;
+}
+
+.section-price .table {
+    width: 265px;
+    height: 100%;
+    display: inline-block;
+    background-color: #FFF;
+    margin-right: 20px;
+    min-height: 300px;
+}
+
+.section-price .tablearea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    padding: 30px;
+}
+
+.section-price--name {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.section-price--pricing {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.section-price--role {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.section-price--desc {
+    margin-top: 10px;
+    font-size: 9px;
+    text-align: center;
+}
+
+.button-inactive {
+    display: inline-block;
+    background-color: #222;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
