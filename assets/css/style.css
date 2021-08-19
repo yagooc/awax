@@ -230,23 +230,22 @@ header {
 
 /* Section Services */
 
-.section-services {
+.section-somefacts {
     display: flex;
 }
 
-.section-service {
+.section-fact {
     flex: 1;
     text-align: center;
-    border-right: 1px solid #333;
-    padding: 15px;
+    max-width: 570px;
 }
 
-.section-service:first-child {
-    border-left: 1px solid #333;
-
+.section-fact h1 {
+    font-size: 40px;
+    color: #B28756;
 }
 
-.section-service h4 {
+.section-fact h4 {
     margin-top: 30px;
     text-transform: uppercase;
     font-size: 18px;
@@ -715,4 +714,34 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* section some facts */
+
+.section-services {
+    display: flex;
+}
+
+.section-service {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #333;
+    padding: 15px;
+}
+
+.section-service:first-child {
+    border-left: 1px solid #333;
+
+}
+
+.section-service h4 {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-service p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
 }
